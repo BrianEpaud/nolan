@@ -1,0 +1,237 @@
+@import "headerwomen";
+@import "footerwomen";
+
+body{
+   background-color: white;
+   .afternike{
+       align-items: center;
+    display: flex;
+    justify-content: space-around;
+       h2{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        margin-left: 2%;
+       }
+       .navun{
+        width: 58%;
+        margin: auto;
+        ul{
+            list-style: none;
+            padding: 0%;
+            width: 100%;
+            :hover{
+                color: grey;
+            }
+               li{
+                   a{
+                    color: black;
+                    text-decoration: none;
+                    font-size: 20px;
+                    line-height: 40px;
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: 600;
+                    margin-right: 2%;
+                   }
+               }
+           }
+       }
+   }
+   .imagewomen{
+       margin: 2%;
+   }
+   .elevated{
+       h1{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 900;
+        font-size: 60px;
+        text-align: center;
+        width: 40%;
+        margin: auto;
+       }
+       #Be{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        text-align: center;
+        width: 40%;
+        margin: auto;
+        padding-top: 1.5%;
+        margin-bottom: 2%;
+       }
+       .shop{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        text-align: center;
+        width: 40%;
+        margin: auto;
+        color: white;
+        #Shop{
+            background-color: #000000;
+            border: solid 1px #000000;
+            border-radius: 20px;
+            width: 10%;
+            margin: auto;
+            padding-top: 0.75%;
+            padding-bottom: 0.75%;
+       }
+       }
+   }
+   .imageshoeswomen{
+       margin: 2%;
+       h2{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        margin-top: 5%;
+       }
+       .shoeswomen{
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+       }
+   }
+   .shopdeux{
+    width: 20%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 10%;
+    }   
+       .shopdeuxun{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        width: 20%;
+        margin: auto;
+        background-color: #000000;
+        border: solid 1px #000000;
+        border-radius: 20px;
+        padding-top: 1.25%;
+        padding-bottom: 1.25%;
+        #shopdeuxdeux{
+            color: white;
+            margin: 0%;
+        }
+     }
+     .threeshoes{
+         margin: 2%;
+         margin-top: 0%;
+         margin-bottom: 0%;
+         h2{
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            padding-left: 0.75%;
+         }
+         .threeshoesimg{
+            text-align: center;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+             .imgun{
+                 img{
+                    width: 95%;
+                    height: auto;
+                 }
+             }
+             .imgdeux{
+                 img{
+                    width: 100%;
+                    padding-left: 3%;
+                 }
+             }
+             .imgtrois{
+                 img{
+                    width: 84.90%;
+                    height: auto;
+                 }
+             }
+         }
+     }
+     .carathreeshoes{
+         margin: 2.5%;
+         margin-bottom: 8%;
+         .cara{
+            display: flex;
+            justify-content: space-between;
+            #soloa{
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 600;
+                padding-left: 12%;
+             }
+             #soloz{
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 600;
+                padding-left: 7%;
+             }
+             #solo{
+                 padding-right: 7%;
+                 font-family: 'Montserrat', sans-serif;
+                 font-weight: 600;
+             }
+         }
+     }
+     .grisbeige{
+         background-color: rgb(212, 212, 212);
+         margin: 2%;
+         height: 800px;
+         .globale{
+             .nikeorange{
+                width: 8%;
+                height: 50px;
+                margin: auto;
+                padding-top: 4%;
+             }
+             .grostext{
+                padding-top: 2%;
+                font-size: 50px;
+                width: 30%;
+                margin: auto;
+                text-align: center;
+                h2{
+                    margin-bottom: 5%;
+                }
+             }
+             .petittext{
+                padding-top: 0.5%;
+                text-align: center;
+                font-family: 'Montserrat', sans-serif;
+             }
+             .joinandsign{
+                 padding-top: 1%;
+                 display: flex;
+                 justify-content: center;
+                 .container{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    width: 10%;
+                    .join{
+                        background-color: #000000;
+                        border: solid 1px #000000;
+                        border-radius: 20px;
+                        margin: 0%;
+                        padding-top: 6%;
+                        padding-bottom: 6%;
+                        padding-left: 9%;
+                        padding-right: 9%;
+                        p{
+                            color: white;
+                            margin: 0%;
+                        }
+                    }
+                    .sign{
+                        background-color: #000000;
+                        border: solid 1px #000000;
+                        border-radius: 20px;
+                        margin: 0%;
+                        padding-top: 6%;
+                        padding-bottom: 6%;
+                        padding-left: 9%;
+                        padding-right: 9%;
+                        p{
+                           color: white;
+                            margin: 0%;
+                        }
+                    }
+                 }
+             }
+         }
+     }
+ }

@@ -1,0 +1,316 @@
+#header {
+  height: 300px;
+}
+
+#header #bck {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 2%;
+  margin-right: 4%;
+}
+
+#header #bck #navright {
+  width: 15%;
+  margin-left: 4%;
+}
+
+#header #bck #navright ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+  padding: 0%;
+}
+
+#header #bck #navright ul :hover {
+  color: grey;
+}
+
+#header #bck #navright ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 40px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+#header #bck #YourSneaker {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-right: 10%;
+}
+
+#header #bck #YourSneaker #Your {
+  color: grey;
+  font-size: 40px;
+  margin: 0%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#header #bck #YourSneaker #Sneaker {
+  color: black;
+  font-size: 40px;
+  margin: 0%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#header #bck #navleft {
+  width: 8%;
+}
+
+#header #bck #navleft ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+  padding: 0%;
+}
+
+#header #logonike {
+  text-align: center;
+  padding-right: 2.75%;
+}
+
+body {
+  height: 2650px;
+  background-color: black;
+}
+
+body .corps {
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .corps .container {
+  margin-left: 8%;
+  width: 60%;
+}
+
+body .corps .container .sneakerairjordan h2 {
+  color: grey;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0%;
+  font-size: 30px;
+}
+
+body .corps .container .sneakerairjordan h1 {
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 60px;
+  margin-top: 0%;
+}
+
+body .corps .container .para h2 {
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body .corps .container .para #thepop {
+  width: 80%;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body .corps .container .para #skusku {
+  width: 55%;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body .corps .chaussure {
+  height: 550px;
+  background-image: url(./image/sneakers.png);
+  background-repeat: no-repeat;
+  width: 90%;
+  margin-left: 10%;
+}
+
+body .corps .zeroun {
+  color: grey;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 150px;
+  padding-right: 5%;
+}
+
+body .aftercorps .fleche {
+  text-align: end;
+  padding-right: 5%;
+}
+
+body .buy {
+  padding-top: 3%;
+}
+
+body .buy .containerdeux {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  width: 90%;
+  margin: auto;
+}
+
+body .buy .containerdeux .boutonnoiretblanc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 7%;
+}
+
+body .buy .containerdeux .boutonnoiretblanc #black ul {
+  list-style: none;
+}
+
+body .buy .containerdeux .boutonnoiretblanc #black ul li a {
+  color: black;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+body .buy .containerdeux .boutonnoiretblanc #white ul {
+  list-style: none;
+}
+
+body .buy .containerdeux .boutonnoiretblanc #white ul li a {
+  color: black;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+body .buy .containerdeux .buyelement {
+  padding-right: 8%;
+}
+
+body .buy .containerdeux .buyelement .buytext #troissans {
+  margin-bottom: 10%;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+body .buy .containerdeux .buyelement .buytext #b ul {
+  margin: 0%;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #000000;
+  border: solid 1px #000000;
+  border-radius: 7px;
+  width: 165px;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+  font-weight: 700;
+  font-size: 25px;
+  padding-left: 0%;
+  list-style: none;
+}
+
+body .buy .containerdeux .buyelement .buytext #b ul :hover {
+  color: grey;
+}
+
+body .buy .containerdeux .buyelement .buytext #b ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+body .nepassez {
+  padding-top: 10%;
+  width: 96%;
+  margin: auto;
+}
+
+body .nepassez h2 {
+  color: #000000;
+  margin-bottom: 2%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body .nepasseztext h1 {
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  width: 40%;
+  margin: auto;
+  padding-top: 4%;
+  font-size: 60px;
+  text-align: center;
+}
+
+body .nepasseztext p {
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  width: 16%;
+  margin: auto;
+  padding-top: 1%;
+  padding-bottom: 3%;
+}
+
+body .nepasseztext .hommefemmenepassez .hommefemme {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .nepasseztext .hommefemmenepassez .hommefemme .homme {
+  padding-right: 3%;
+}
+
+body .nepasseztext .hommefemmenepassez .hommefemme .homme p {
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  width: 100%;
+  background-color: #000000;
+  border: solid 1px #000000;
+  border-radius: 20px;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 3%;
+}
+
+body .nepasseztext .hommefemmenepassez .hommefemme .femme p {
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  width: 100%;
+  background-color: #000000;
+  border: solid 1px #000000;
+  border-radius: 20px;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 3%;
+}
+/*# sourceMappingURL=stylewhite.css.map */

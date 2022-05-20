@@ -1,0 +1,41 @@
+#contact{
+    background-color: #000000;
+    .elements{
+        width: 80%;
+        margin: auto;
+        padding-top: 3%;
+        .top{
+            display: flex;
+            .left{
+                .leftleft{
+                    display: flex;
+                    .columun{
+                        padding-right: 60%;
+                        p{
+                            color: white;
+                        }
+                    }
+                    .columdeux{
+                        padding-right: 60%;
+                        p{
+                            color: white;
+                        }
+                    }
+                    .columtrois{
+                        p{
+                            color: white;
+                        }
+                    }
+                }
+            }
+           .right{
+               padding-left: 65%;
+               padding-top: 10%;
+               img{
+                   width: 15%;
+                   height: auto;
+               }
+           }
+        }
+    }
+}

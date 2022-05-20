@@ -1,0 +1,62 @@
+#header{
+    height: 300px;
+    #bck{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 2%;
+        margin-right: 4%;
+        #navright{
+            width: 15%;
+            margin-left: 4%;
+            ul{
+                display: flex;
+                justify-content: space-between;
+                list-style: none;
+                padding: 0%;
+                :hover{
+                    color: grey;
+                }
+                li{
+                    a{
+                        color: white;
+                        text-decoration: none;
+                        font-size: 20px;
+                        line-height: 40px;
+                        font-family: 'Montserrat', sans-serif;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+        #YourSneaker{
+            display: flex;
+            justify-content: center;
+            padding-right: 10%;
+            #Your{
+                color: grey;
+                font-size: 40px;
+                margin: 0%;
+                font-family: 'Montserrat', sans-serif;
+            }
+            #Sneaker{
+                color: white;
+                font-size: 40px;
+                margin: 0%;
+                font-family: 'Montserrat', sans-serif;
+            }
+        }
+        #navleft{
+            width: 8%;
+            ul{
+                display: flex;
+                justify-content: space-between;
+                list-style: none;
+                padding: 0%;
+            }
+        }
+    }
+    #logonike{
+        text-align: center;
+        padding-right: 2.75%;
+    }
+}
